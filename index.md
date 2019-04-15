@@ -57,8 +57,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <p><strong>
-  We expect to open registration for this workshop on ....
-  <!-- <a href="">Register Now</a> -->
+  <a href="https://informatics.institute.ufl.edu/2019/04/carpentries-inspired-r-based-geospatial-workshop/">Register Now</a>
   <!-- Registration is now full -->
 </strong></p>
 
