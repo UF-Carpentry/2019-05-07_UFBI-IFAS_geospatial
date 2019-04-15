@@ -157,7 +157,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  If there are additional materials or services we can provide to help making learning easier for you (e.g., large-print handouts, sign-language interpreters, lactation facilities) please
+  If there are additional materials or services we can provide to help make learning easier for you (e.g., large-print handouts, sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
