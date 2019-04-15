@@ -46,10 +46,22 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+<h2>Registration</h2>
+
+
+<p>
+  Space is limited to 24 participants for this workshop
+  and registration is required. UFBI has generously offered to cover the expenses for this workshop, so there is no charge to participate.  Lunch and snacks will be provided during the workshop.
+  If you register for the workshop, please plan on attending the entire time.
+  You can register in UF's conference system here:
+</p>
+
+<p><strong>
+  We expect to open registration for this workshop on ....
+  <!-- <a href="">Register Now</a> -->
+  <!-- Registration is now full -->
+</strong></p>
+
 
 <h2 id="general">General Information</h2>
 
@@ -119,10 +131,7 @@ and our administrator may contact you if we need any extra information.</h4>
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <strong>Requirements:</strong> Participants must bring a laptop running Linux, Windows, or MacOS (not a tablet, Chromebook, etc.).  Participants should have R installed on their laptops and they should be able to install R packages as needed (see additional <a href="#setup">setup information</a>). They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
@@ -149,10 +158,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
+  If there are additional materials or services we can provide to help making learning easier for you (e.g., large-print handouts, sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
@@ -211,7 +217,7 @@ and our administrator may contact you if we need any extra information.</h4>
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule (tentative)</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}

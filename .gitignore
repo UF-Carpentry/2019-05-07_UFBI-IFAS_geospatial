@@ -9,3 +9,6 @@ _site
 .Rhistory
 .RData
 
+# VIM swap files.
+*.swp
+
