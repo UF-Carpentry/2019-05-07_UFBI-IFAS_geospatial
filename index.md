@@ -268,16 +268,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
+  To participate in this workshop,
+  you will need access to a computer with R and various geospatial software packages installed.  See below for detailed installation instructions.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
@@ -336,3 +328,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
+
+  <h3>Geospatial software</h3>
+
+  <p>
+    You will need to have additional geospatial software packages installed on your computer to use R with geospatial data.  Please follow the <a href="https://datacarpentry.org/geospatial-workshop/setup.html">detailed installation instructions for your preferred operating system</a>.
+  </p>
+
